@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header-tile{
+    padding: 10px;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 160px;
+    height: 40px;
+}
+
+@media (min-width: 600px){   
+    .menu-icon{
+        display: none;
+    }
+}
